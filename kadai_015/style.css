@@ -1,0 +1,34 @@
+html{
+  font-size: 20px;
+}
+h1{
+  font-family: "josefin sans",sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1.2em;
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: solid 3px rgb(115,115,114);
+}
+
+body{
+  text-align: center; 
+  font-family: "Arial", "Meiryo", sans-serif;
+}
+.blue{
+  color: skyblue;
+}
+.pink{
+  color: rgb(255,192,203);
+}
+.google-fonts{
+  // <uniquifier>: Use a unique and descriptive class name
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+#basic > p{
+  font-weight: bold;
+}
