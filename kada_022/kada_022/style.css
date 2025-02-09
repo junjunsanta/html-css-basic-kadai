@@ -51,24 +51,25 @@ footer{
   background-color: rgb(244,79,79);
   text-align: center;
 }
- .footer a{
+ footer a{
     color: rgb(255,255,255);
  }
-  .footer a :visited{
+  footer a :visited{
     color: rgb(193,234,251);
   }
 
-  .footer a :hover{
+  footer a :hover{
     color: rgb(245,178,168);
-
-  }@media screen and(max-width: 768px){
+  }
+  
+  @media screen and(max-width: 768px){
     h2{
       font-size: 30px;
     }
     P{
       font-size: 25px;
     }
-    parent{
+    #parent{
       flex-direction: column;
     }
   }
