@@ -43,10 +43,6 @@ h2::before{
     font-weight: bold;
     color: rgb(97,206,249);
   }
-.img src{
-  margin: 10px 0px 10px 0px;
-  width: 70%;
-}
 footer{
   background-color: rgb(244,79,79);
   text-align: center;
@@ -62,7 +58,7 @@ footer{
     color: rgb(245,178,168);
   }
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     h2{
       font-size: 30px;
     }
@@ -71,7 +67,7 @@ footer{
     }
     #parent{
       flex-direction:column;
-      justify-content: flex-star;
+      justify-content:flex-start;
     }
     }  
  
