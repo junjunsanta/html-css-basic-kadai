@@ -31,6 +31,10 @@ main{
   justify-content:center;
   text-align: center;
 }
+img{
+  margin: 10px 0px 10px 0px;
+  width: 70%;
+}
 h2{
   font-size: 25px;
   border-bottom: dotted 3px rgb(236,122,122);
@@ -67,6 +71,7 @@ footer{
     }
     #parent{
       flex-direction:column;
+      display: block;
       justify-content:flex-start;
     }
     }  
