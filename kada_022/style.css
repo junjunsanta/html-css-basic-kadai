@@ -21,17 +21,17 @@ main{
 }
 #parent{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .content{
   border: solid 3px rgb(238,204,204);
   flex-basis: 25%;
   padding: 10px 15px 10px 15px;
-  margin: 20px 0px 20px 0px;
-  justify-content:center;
+  margin: 20px 0px;
+  justify-content: space-evenly;
   text-align: center;
 }
-img{
+.content img {
   margin: 10px 0px 10px 0px;
   width: 70%;
 }
@@ -71,7 +71,7 @@ footer{
     }
     #parent{
       flex-direction:column;
-      display: block;
+      display: flex;
       justify-content:flex-start;
     }
     }  
